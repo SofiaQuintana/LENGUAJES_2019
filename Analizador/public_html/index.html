@@ -12,10 +12,30 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="./Styling.css">
     </head>
     <body>
+        
         <header class="header">Lexical Analyzer</header>
+        
         <article class="article">
-            
-        </article>      
+            <h3>INPUT</h3>
+            <div class="firstContainer">
+                <input type="text" id="inputBox">                
+            </div>   
+            <h1></h1>
+            <div class="secondContainer">
+                <button type="button" onclick="analyzeText()" >Analyze</button>
+            </div>             
+        </article>
+        
+        <aside class="aside">
+            <h3>HISTORY</h3>
+            <table id="list">
+                <tr>
+                    <th>Text</th>
+                    <th>Token</th>
+                </tr>
+            </table>  
+        </aside>
+                       
         <script type="text/javascript" src="./Coding.js"></script>
     </body>
 </html>

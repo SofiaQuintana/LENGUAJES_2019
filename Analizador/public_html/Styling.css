@@ -9,11 +9,50 @@ and open the template in the editor.
 */
 .header {
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    background-color:  #008080;
+    padding: 40px;
+    color: white;
     
 }
 
 .article {
-    
+    background-color: #b2d8d8;
+    color: white;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    height: 500px;
+    text-align: center;
+    width: 50%;
 }
 
+.secondContainer {
+}
+
+.aside {
+    background-color:  #5f9ea0;
+    color: white;
+    float: right;
+    font-family: Helvetica, sans-serif;
+    height: 500px;
+    text-align: center;
+    width: 50%;
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
+}
+
+table, tr, th {
+    text-align: center;
+    border: 1px solid gray;
+    border-width: thin;
+}
+
+th, tr {
+    padding: 5px;
+}
