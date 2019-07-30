@@ -31,7 +31,9 @@ function analyzeText(text) {
            flag = 2;
        } else if (signsValidation(code)) {
            flag = 3;
-       } 
+       } else if (text === " ") {
+           flag = 4;
+       }
         rules(flag, text);    
 }
 
@@ -81,6 +83,9 @@ function rules(flag, text) {
             }
             verifyValidation(isTrue, "Simbolo");
             break;
+        case 4:
+            alert("Elemento invalido");
+        break;
         default:
             isTrue = false;
             verifyValidation(isTrue, "Error");    
