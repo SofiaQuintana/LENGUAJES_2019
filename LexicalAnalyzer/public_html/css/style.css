@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 23, 2018, 12:42:46 AM
+    Author     : zofia
+*/
+
+.browser {
+    size: 50px;
+    background-color: #508dae;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 0% 3px 2%;
+    border-radius: 4px;
+    text-align: center;  
+    font-family: Helvetica, sans-serif;
+}
+
+.buttons {
+    size: 50px;
+    background-color: #508dae;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 0% 3px 2%;
+    border-radius: 4px;
+    text-align: center;  
+    font-family: Helvetica, sans-serif;
+}
+
+.style {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font-family: Helvetica, sans-serif;
+    background-color: #5f9bbe;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.article {
+    float: left;
+    padding: 20px;
+    background-color: #bbced9;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+
+.aside {
+    float: right;
+    padding: 20px;
+    background-color: #8fb9d1;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    width: 24%;
+    height: 570px;
+}
