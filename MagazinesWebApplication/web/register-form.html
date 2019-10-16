@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<form action="UserRegisterController" method="POST">
+    <div class="card border-dark mb-3" id="card" >
+        <div class="card-body">
+            <div> 
+                <h1 class="title">Sign up</h1>
+            </div>
+            <div></div>
+            <div class="form-group">
+                <label for="username">Username: *</label>
+                <input class="form-control" name="username" placeholder="Ingrese Username">
+            </div>    
+            <div class="form-group">
+                <label for="password">Password: *</label>
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>  
+            <div class="form-group">
+                <label for="type">Type: *</label>
+                <select class="form-control" name="type">
+                      <option>Subscriber</option>
+                      <option>Editor</option>
+                </select>
+            </div>   
+            <div> 
+                <h1 class="title">Profile</h1>
+            </div>
+            <div></div>
+            <div class="form-group">
+                <label for="name">First name: *</label>
+                <input class="form-control" id="name" name="name" placeholder="Ingrese Nombre">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last name: *</label>
+                <input class="form-control" id="lastname" name="lastName" placeholder="Ingrese Apellido">
+            </div>
+            <div class="form-group">
+                <label for="type">Born Date: *</label>
+                <div class="input-group mb-3">
+                    <input class="form-control" name="year" placeholder="year" aria-label="year" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon1">/</span>
+                    </div>
+                    <input class="form-control" name="month" placeholder="month" aria-label="month" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon1">/</span>
+                    </div>
+                    <input class="form-control" name="day" placeholder="day" aria-label="day" aria-describedby="basic-addon1"> 
+                </div>
+                <small class="form-text text-muted">Example: 1998/02/28</small>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender: *</label>
+                <select class="form-control" id="gender" name="gender">
+                      <option>Female</option>
+                      <option>Male</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea name="description" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="preferences">Preferences: </label>
+                <textarea name="preferences" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="hobbies">Hobbies: </label>
+                <textarea name="hobbies" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="topics">Favorite topics: </label>
+                <textarea name="topics" class="form-control" rows="3"></textarea>
+            </div>       
+            <button type="submit" value="Upload" class="btn btn-dark">Next: Select Profile Photo</button>
+        </div>
+    </div>   
+</form>
